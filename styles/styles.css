@@ -1,3 +1,7 @@
+main {
+    max-width: 550px;
+    
+}
 
 body {
     
@@ -5,28 +9,52 @@ body {
 }
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 0;
 }
 
 nav a {
-    color: white;
-    display: block;
+    color: rgb(237, 234, 240);
+    display: inline-block;
     padding: 20px;
+    font-size: larger;  
 }
 
 h1 {
     color: steelblue;
 }
 
-img {
-    width: 150px;
+main img {
+    width: 200px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 2px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px grey;
+    box-shadow: 0 0 10px grey;
+    
+}
+
+aside{
+    display: inline-block;
+    width: 35rem;
+    margin: .5rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: .5rem;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    
+}
+aside img{
+    width: 300px;
+    height: auto;
+}
+footer {
+    margin-top: 5rem;
+    border-color: rgb(237, 234, 240);
+    border-top: 5rem;
+    text-align: center;
 }
 
 p {
     font-size: 20px;
-    padding: 10px;
+    padding: 0;
 }
