@@ -1,6 +1,6 @@
 main {
-    max-width: 550px;
-    
+    max-width: 450px;
+    height: 300px;
 }
 
 body {
@@ -29,10 +29,13 @@ main img {
     border: 2px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 10px grey;
-    
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;   
 }
 
 aside{
+    
     display: inline-block;
     width: 35rem;
     margin: .5rem;
