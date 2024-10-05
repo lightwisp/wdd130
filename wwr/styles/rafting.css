@@ -1,0 +1,99 @@
+/* primary-color #414F90 */ 
+/* secondary-color #7FB069 */
+/* accent1-color #ECE4B7 */
+/* accent2-color #392B1B */
+/* https://coolors.co/414f90-7fb069-ece4b7-392b1b */
+/* Font names are "Titillium Web", and "Open Sans" */
+
+
+
+body{
+    margin:0 auto;
+    width: 80%;
+    max-width: 2200px; 
+    background-color: black; 
+}
+
+
+.hero img{
+   
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+:root {
+    color: #414f90;
+    color: #7FB069;
+    color: #ECE4B7;
+    color: #392B1B;
+}
+h1{ 
+    z-index: 1;  
+    position: absolute;
+    background-color:#ECE4B7;
+}
+article{
+    position: absolute;
+    text-align: center;
+    background-color: #392B1B;
+    
+}
+
+div{
+    margin-bottom: 500px ;
+}
+
+header{
+    
+    text-align: center; 
+    padding-bottom: 2rem;
+    width: 100%;
+    height: 200px;
+    background-color: #392B1B;
+    outline-color: 10px #ECE4B7;
+    margin-bottom: 10px;
+    
+}
+header img {
+    
+    border: 10px solid #414f90;
+    float: inline-start;
+    align-items: center;
+
+}
+header nav a{
+    
+    color: #7FB069;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    font-size:xx-large; 
+    border-style: solid;
+    border-color: #ECE4B7;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    word-spacing: 50px;
+    text-decoration: none;
+    
+}
+
+h1,h2,h3 { 
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: xx-large;
+    color: #392B1B;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    z-index: 1;
+    color: #392B1B;
+}
+
+footer img {
+    width: auto;
+    height: 50px;
+    object-fit: cover;
+}
