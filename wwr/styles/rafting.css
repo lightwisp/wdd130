@@ -41,7 +41,6 @@ body{
 .hero article {  
     position: relative;   
     background-color: #392B1B;
-    
 }
 
 .hero article h2{
@@ -113,9 +112,11 @@ p {
     font-style: normal;
     color: #392B1B;
 }
-
+footer{
+   text-decoration: none; 
+}
 footer img {
     width: auto;
     height: 50px;
-    object-fit: cover;
+    object-fit: cover;  
 }
