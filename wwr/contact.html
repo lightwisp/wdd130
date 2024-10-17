@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact Wight Water Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -116,7 +116,43 @@
     <div class="box box7">
         <form>
             <fieldset>
-                <label for="feedback">Share what you think we could do better? Or what do we do good at.</label>
+                <legend>Your Name</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend> 
+                <div class="form-item select">
+                    <label for="browser">Whats your favorite location?</label>
+                    <select name="browser" id="browser">
+                        <option value="utah">Utah</option>
+                        <option value="washington">Washington</option>
+                        <option value="california">California</option>
+                        <option value="new-mexico">New Mexico</option>
+                        <option value="colorado">Colorado</option>
+                    </select>
+                </div> 
+            </fieldset>
+            <fieldset>
+                <div class="form-item checkbox">
+                    <label for="viseted">Have you visited us befor?</label>
+                    <input type="checkbox" id="viseted" name="viseted">
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="form-item radio">
+                    <label for="enjoyment">How have you enjoyed your experience?</label>
+                    <p>😊</p><input type="radio" id="enjoyment" name="enjoyment"> 
+                    <p>😐</p><input type="radio" id="enjoyment" name="enjoyment"> 
+                    <p>😒</p><input type="radio" id="enjoyment" name="enjoyment">
+
+                </div>
+            </fieldset>
+            <fieldset>
+                <label for="feedback">Share what you think we could do better? </label>
+                <label for="feedback">Or what do we do good at.</label>
                 <textarea name="feedback" id="feedback" rows="10" placeholder="What do you think we could do better:"></textarea>
             </fieldset>
             <button type="submit">Submit Poll</button>

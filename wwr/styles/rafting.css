@@ -221,6 +221,8 @@ footer img {
     text-align: center;
     background-color: #2f4725;
     grid-auto-flow: column;
+    color: #ECE4B7;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .headquarters {
@@ -245,17 +247,12 @@ footer img {
     min-width: 50%;
 }
 .map iframe{
-    display: inline-flex;
-    
     margin: 20px;
     padding: 30px;
     border:4px solid #414f90;
     align-items: center;
     min-width: 60%;
-    max-height: 100%;
-    
-    
-    
+    max-height: 100%;  
 }
 .inner-box {
     display: grid;
@@ -308,19 +305,18 @@ footer img {
 
 .boss1 {
     height: 300px;
-    border-radius: .5rem;
-    
-    
+    border-radius: .5rem;   
 }
-
-
+.box7{
+    color: #ECE4B7;
+}
 .box7 label{
     margin: 20px;
     padding: 40px;
     font-size: 1.5rem;
-    
-    font-family: 'Titillium Web', sans-serif; 
-    color: #ECE4B7;
+}
+.box7 legend{
+    font-size: 1.5rem;
 }
 .box7 fieldset{
     border: 4px solid #414f90;
@@ -331,6 +327,7 @@ textarea {
     height: 70px;
     padding: .5rem;
     font-size: 1rem;
+    color: #ECE4B7;
     background-color: rgb(29, 28, 28);
     font-family: 'Titillium Web', sans-serif;
 }
@@ -370,4 +367,28 @@ button {
 .hyperlink a{
     text-decoration: none;
     color: #ECE4B7;
+}
+.form-item input{
+    background-color: rgb(29, 28, 28);
+    color: #ECE4B7;
+}
+.checkbox input{
+    width: 20px;
+    height: 20px;
+    
+}
+.select select{
+    width: 100px;
+    height: 20px;
+    color: #ECE4B7;
+    background-color: rgb(29, 28, 28);
+}
+.radio label{
+    display: block;
+    block-size: 1px;
+    padding-top: 5px;
+}
+.radio p,input{
+    padding-top: 0px;
+    display: inline-block;
 }
