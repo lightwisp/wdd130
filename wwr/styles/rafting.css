@@ -1,8 +1,8 @@
 /* primary-color #414F90 */ 
-/* secondary-color #7FB069 */
+/* secondary-color #2f4725 */
 /* accent1-color #ECE4B7 */
 /* accent2-color #392B1B */
-/* https://coolors.co/414f90-7fb069-ece4b7-392b1b */
+/* https://coolors.co/414f90-2f4725-ece4b7-392b1b */
 /* Font names are "Titillium Web", and "Open Sans" */
 body{
     margin:0 auto;
@@ -13,7 +13,7 @@ body{
 
 :root {
     color: #414f90;
-    color: #7FB069;
+    color: #2f4725;
     color: #ECE4B7;
     color: #392B1B;
 }
@@ -127,7 +127,7 @@ header{
     max-width: 1300px;
     width: 100%;
     height: 200px;
-    background-color:#ECE4B7; 
+    background-color:#2f4725; 
 }
 
 header img {
@@ -175,15 +175,15 @@ h1,h2,h3 {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size:calc(10px + 2vw);
-    color: #392B1B;
+    font-size:30px;
+    color:#ECE4B7;
 }
 p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: calc(10px + 1.5vw);
-    color: #392B1B;
+    font-size: 24px;
+    color:#ECE4B7;
 }
 footer{
     display: grid;
@@ -196,8 +196,178 @@ footer{
 footer img {
 
     width: auto;
-    height:calc(20px + 3.5vw);
+    height:60px;
     object-fit: cover; 
     padding-left: 10px;
     float: right; 
+}
+
+
+
+
+/*contact page css*/
+
+.contact-initial {
+    display: flex;
+    
+
+}
+.box {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 4px solid #414f90;
+    border-radius: .5rem ;
+    text-align: center;
+    background-color: #2f4725;
+    grid-auto-flow: column;
+}
+
+.headquarters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 4px solid #414f90;
+    border-radius: .5rem ;
+    text-align: center;
+}
+.map{
+    display: inline-flex;
+    grid-template-columns: 1fr 1fr;
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border-radius: .5rem;
+    border: 4px solid #414f90;
+    background-color: #2f4725;
+    min-width: 50%;
+}
+.map iframe{
+    display: inline-flex;
+    
+    margin: 20px;
+    padding: 30px;
+    border:4px solid #414f90;
+    align-items: center;
+    min-width: 60%;
+    max-height: 100%;
+    
+    
+    
+}
+.inner-box {
+    display: grid;
+    grid-template-columns: .2fr 1.5fr;
+    text-align: center;
+    align-items: center;
+    margin: .1rem;
+    padding: .2rem;
+    background-color: #414f90;
+    border-radius: .5rem;
+}
+.inner-box img{
+    width: 25px;
+    
+    height: auto;
+}
+
+.location{
+    flex: 1;
+    margin: 20px;
+    padding: 40px;
+    border: 4px solid #414f90;
+    border-radius: .5rem ;
+    text-align: center;
+    background-color: #2f4725;
+}
+.offices{
+    
+    
+    margin: 20px;
+    padding: 40px;
+    border: 4px solid #414f90;
+    border-radius: .5rem ;
+    border-radius: .5rem;
+}
+.offices h1{
+    margin-left: 50px;
+}
+.leaders{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.box4, .box5, .box6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#2f4725;
+    text-align: center;
+    align-items: center;
+}
+
+.boss1 {
+    height: 300px;
+    border-radius: .5rem;
+    
+    
+}
+
+
+.box7 label{
+    margin: 20px;
+    padding: 40px;
+    font-size: 1.5rem;
+    
+    font-family: 'Titillium Web', sans-serif; 
+    color: #ECE4B7;
+}
+.box7 fieldset{
+    border: 4px solid #414f90;
+    border-radius: .5rem;
+}
+textarea {
+    width: 80%;
+    height: 70px;
+    padding: .5rem;
+    font-size: 1rem;
+    background-color: rgb(29, 28, 28);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+button:hover {
+    font-weight: 800;
+    color:#ECE4B7;
+     
+}
+button {
+    font-family: 'Titillium Web', sans-serif;
+    color: #ECE4B7;
+    width: 160px;
+    margin: 1rem;
+    border-radius: .5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color:#414f90;
+    border: none;
+    
+}
+.hyperlink{
+    font-family: 'Titillium Web', sans-serif;
+    width: 160px;
+    margin: 1rem;
+    border-radius: .5rem;
+    text-align: center;
+    
+    font-size: 1.5rem;
+    background-color:#414f90;
+    grid-column: 1/3;
+      
+}
+.hyperlink ul{
+    list-style-type: none; 
+}
+.hyperlink a{
+    text-decoration: none;
+    color: #ECE4B7;
 }
