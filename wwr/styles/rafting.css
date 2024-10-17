@@ -250,6 +250,8 @@ footer img {
     margin: 20px;
     padding: 30px;
     border:4px solid #414f90;
+    border-radius: 1.5rem;
+    background-color: #414f90;
     align-items: center;
     min-width: 60%;
     max-height: 100%;  
