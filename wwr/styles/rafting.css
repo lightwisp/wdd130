@@ -271,7 +271,17 @@ footer img {
     
     height: auto;
 }
-
+.column2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px;
+    align-items: center;
+    
+}
+.column2 input{
+    height: 20px;
+    
+}
 .location{
     flex: 1;
     margin: 20px;
